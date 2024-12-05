@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Enigma da Casa Abandonada </title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Uma noite chuvosa, você recebe uma mensagem misteriosa. A mensagem, enviada de um número desconhecido, contém apenas um endereço e um desafio: “Desvende os segredos da casa, ou eles permaneceram esquecidos para sempre”.</p>
+            <button class="btn-proximo" data-proximo="1">São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Salão principal</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide investigar e se encontra distante de uma casa velha e abandonada. Ela empurra a porta pesada que range ao abrir, revelando um salão escuro e empoeirado.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar o Salão Principal.</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Salão principal, com uma lanterna em mãos, você começa a explorar o salão. Vários quadros antigos então pendurados nas paredes, uma lareira apagada e móveis cobertos com lençois brancos. O tique-taque de um relógio velho chama a sua atenção ao olhar mais de perto, você encontra um código gravado na parte de trás do relógio. Você decifra o código?</p>
+            <button class="btn-proximo" data-proximo="5">Decifrar o código</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Com a combinação decifrada, você abre o cofre e encontra uma chave antiga e uma carta minúscula. Na carta dizia “porão cheio de segredos.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir as instruções e procurar a entrada para o porão.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Encontrando o porão e usando a chave, você encontra uma caixa de metal trancada.</p>
+            <button class="btn-proximo" data-proximo="7">Usar ferramentas da sala para arrombar.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Abrindo a caixa, você encontra um diário e uma vela.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a casa.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você acende a vela e começa aer o diário, que pertenceu ao antigo dono da casa. O diário revela detalhes sombrios sobre experiências secretas e desaparecimentos misteriosos.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir as pistas do diário.</button>
+            <button class="btn-proximo" data-proximo="10">Explorar o resto da casa.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Seguindo as pistas do diário, você descobre um espelho grande no canto do porão. Ao tocar no espelho ela ativa um mecanismos oculto que revela uma passagem secreta.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir a passagem secreta.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você segue a passagem secreta que dá até uma saída escondida no jardim da casa.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar andando.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ainda na passagem, você vê várias aranhas e restos de corpos humanos e de animais.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Ao sair, você percebe que ainda há muitos segredos a serem descobertos, mas por enquanto ela ainda está a salvo.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>E assim você volta para casa com muitas coisas na cabeça.</p>
+            <button class="btn-proximo" data-proximo="11">Ir para casa.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
